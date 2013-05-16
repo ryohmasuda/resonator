@@ -49,5 +49,5 @@ while(1):
     elapsed_time_529 = (time.time() - initial_time)/60
     fcsv_529.writerow([elapsed_time_529, time.strftime("%H"+":"+"%M"), voltage, tempK])
     file_529.close()
-    pulser.switch_manual('Thermometer', Truesssss)
+    pulser.switch_manual('Thermometer', True)
     time.sleep(30)
